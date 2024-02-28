@@ -26,7 +26,7 @@ public class Application {
         GenericTest<Integer> gt1 = new GenericTest<Integer>();
 
         gt1.setValue(new Integer(10));
-        System.out.println(gt1.getValue());
+        System.out.println(gt1.getValue());                            // getValue 값 출력
         System.out.println(gt1.getValue()instanceof Integer);         // instanceof로 Integer타입이 맞는지 확인
 
         GenericTest<String> gt2 = new GenericTest<String>();        // 앞에 자료형 지정해주면, 뒤에도 자동으로 생성된다. 뒤의 <String> 회색글씨
